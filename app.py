@@ -352,7 +352,54 @@ def main():
             except Exception as e:
                 st.error(f"Error: {e}")
     else:
-        st.info("Upload documents in the sidebar and click **Process Documents** to start chatting.")
+    st.markdown("""
+    ## 🚀 Welcome to Agentic Multi-Source RAG
+
+    An intelligent AI Research Assistant that can answer questions from
+    multiple data sources using an agentic workflow.
+
+    ### ✨ Key Features
+
+    ✅ Hybrid Search (FAISS + BM25)
+
+    ✅ Intelligent Query Router
+    - PDF / DOCX / CSV
+    - SQLite Database
+    - Web Search
+
+    ✅ Conversational Memory
+
+    ✅ Self-Correction & Retry Loop
+
+    ✅ Grounded Answers
+
+    ✅ Automatic Source Selection
+
+    ---
+
+    ### 📂 Supported Files
+
+    • PDF Documents
+
+    • DOCX Documents
+
+    • CSV Files
+
+    • SQLite Databases
+
+    ---
+
+    ### ⚙️ How it Works
+
+    1. Upload your documents.
+    2. Click **Process Documents**.
+    3. Ask questions in natural language.
+    4. The AI automatically selects the best source.
+    5. Answers are verified before being returned.
+
+    ---
+    **Built with:** LangChain • Groq • FAISS • BM25 • Streamlit • DuckDuckGo • SQLite
+    """)
 
 if __name__ == "__main__":
     main()
