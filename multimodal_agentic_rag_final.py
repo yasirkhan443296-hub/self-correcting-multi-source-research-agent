@@ -18,10 +18,8 @@ Built entirely with LangChain Runnables (no LangGraph).
 Web Search → Query Router → Dispatcher → Answer Generation → Self-Critique → Retry Loop →
 Memory → Full Orchestration → Streamlit App
 
-### 📦 Setup — install dependencies
-"""
-
-requirement=!pip install langchain-groq langchain-huggingface langchain-core langchain-community langchain-text-splitters langchain-classic rank-bm25 faiss-cpu duckduckgo-search streamlit python-dotenv pyngrok
+### 📦 Setup — install dependencie
+!pip install langchain-groq langchain-huggingface langchain-core langchain-community langchain-text-splitters langchain-classic rank-bm25 faiss-cpu duckduckgo-search streamlit python-dotenv pyngrok
 
 """### 🔧 Imports"""
 
