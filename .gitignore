@@ -1,0 +1,38 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Vector store / index files
+faiss_index/
+*.faiss
+*.pkl
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded / generated data
+uploads/
+data/
+logs.txt
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
