@@ -352,54 +352,54 @@ def main():
             except Exception as e:
                 st.error(f"Error: {e}")
     else:
-    st.markdown("""
-    ## 🚀 Welcome to Agentic Multi-Source RAG
+        st.markdown("""
+        ## 🚀 Welcome to Agentic Multi-Source RAG
 
-    An intelligent AI Research Assistant that can answer questions from
-    multiple data sources using an agentic workflow.
+        An intelligent AI Research Assistant that can answer questions from
+        multiple data sources using an agentic workflow.
 
-    ### ✨ Key Features
+        ### ✨ Key Features
 
-    ✅ Hybrid Search (FAISS + BM25)
+        ✅ Hybrid Search (FAISS + BM25)
 
-    ✅ Intelligent Query Router
-    - PDF / DOCX / CSV
-    - SQLite Database
-    - Web Search
+        ✅ Intelligent Query Router
+        - PDF / DOCX / CSV
+        - SQLite Database
+        - Web Search
 
-    ✅ Conversational Memory
+        ✅ Conversational Memory
 
-    ✅ Self-Correction & Retry Loop
+        ✅ Self-Correction & Retry Loop
 
-    ✅ Grounded Answers
+        ✅ Grounded Answers
 
-    ✅ Automatic Source Selection
+        ✅ Automatic Source Selection
 
-    ---
+        ---
 
-    ### 📂 Supported Files
+        ### 📂 Supported Files
 
-    • PDF Documents
+       • PDF Documents
 
-    • DOCX Documents
+       • DOCX Documents
 
-    • CSV Files
+       • CSV Files
 
-    • SQLite Databases
+       • SQLite Databases
 
-    ---
+       ---
 
-    ### ⚙️ How it Works
+       ### ⚙️ How it Works
 
-    1. Upload your documents.
-    2. Click **Process Documents**.
-    3. Ask questions in natural language.
-    4. The AI automatically selects the best source.
-    5. Answers are verified before being returned.
+       1. Upload your documents.
+       2. Click **Process Documents**.
+       3. Ask questions in natural language.
+       4. The AI automatically selects the best source.
+       5. Answers are verified before being returned.
 
-    ---
-    **Built with:** LangChain • Groq • FAISS • BM25 • Streamlit • DuckDuckGo • SQLite
-    """)
+       ---
+       **Built with:** LangChain • Groq • FAISS • BM25 • Streamlit • DuckDuckGo • SQLite
+       """)
 
 if __name__ == "__main__":
     main()
